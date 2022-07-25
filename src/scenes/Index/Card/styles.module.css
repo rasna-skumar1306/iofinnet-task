@@ -1,12 +1,19 @@
 .container {
   background: var(--io-color-card-bg);
   border-radius: 12px;
-  padding: 18px 24px;
+  box-shadow: 0 1px 0 rgba(40, 47, 60, 0.626);
+  padding: 10px;
+  width: 100%;
+  overflow: auto;
+  cursor: pointer;
 }
 
 .title {
   font-weight: 500;
   font-size: 1.1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .subtitle {
